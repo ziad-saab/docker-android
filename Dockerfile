@@ -13,6 +13,7 @@ RUN apt-get update -qq \
   g++ \
   python2.7 \
   python-pip \
+  jq \
   && rm -rf /var/lib/apt/lists/*
 
 ENV NVM_DIR /usr/local/nvm
